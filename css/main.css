@@ -50,9 +50,10 @@ nav a {
   font-weight: normal;
   font-family: Ubuntu,sans-serif;
   text-decoration: none;
+  text-align: left;
   font-size: 1.125rem;
   display: inline-block;
-  padding: .3em 0 .5em;
+  padding: .5em .75em;
   background-color: #18294f;
 
 }
