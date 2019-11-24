@@ -66,9 +66,8 @@ a:hover {
 
 @media only screen and (min-width: 25em) {
 
-  .card {
-    display: inline-block;
-    text-align: left;
+  nav a {
+    display: block;
   }
 
 }
@@ -89,6 +88,10 @@ a:hover {
     line-height: 1.5;
   }
 
+  nav li {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -96,6 +99,10 @@ a:hover {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  nav li {
+    display: block;
   }
 
 }
