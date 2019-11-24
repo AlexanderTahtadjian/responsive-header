@@ -16,3 +16,48 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: Ubuntu,sans-serif;
+  font-weight: normal;
+  color: #fff;
+  font-size: 2rem;
+  background-color: #18294f;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  font-weight: normal;
+  font-family: Ubuntu,sans-serif;
+  text-decoration: none;
+  font-size: 1.125rem;
+  display: inline-block;
+  padding: .3em 0 .5em;
+  background-color: #18294f;
+
+}
+
+a:hover {
+  background-color: #6c8fe0;
+  text-decoration: none;
+}
