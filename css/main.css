@@ -72,7 +72,8 @@ a:hover {
   }
 
   nav a {
-    display: block;
+    display: inline-block;
+    text-align: center;
   }
 
 }
@@ -94,7 +95,12 @@ a:hover {
   }
 
   nav li {
-    display: block;
+    display: inline-block;
+  }
+
+  nav a {
+    display: inline-block;
+    text-align: center;
   }
 
 }
@@ -108,6 +114,11 @@ a:hover {
 
   nav li {
     display: block;
+  }
+
+  nav a {
+    display: inline-block;
+    text-align: center;
   }
 
 }
