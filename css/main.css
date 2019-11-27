@@ -38,6 +38,8 @@ nav {
 }
 
 nav ul {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   font-weight: normal;
   color: #fff;
@@ -46,8 +48,7 @@ nav ul {
 }
 
 nav li {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 nav a {
@@ -81,7 +82,7 @@ a:hover {
   }
 
   nav li {
-    display: inline-block;
+    width: 50%;
   }
 
   nav a {
@@ -118,7 +119,7 @@ a:hover {
 
   h1,
   nav {
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
   }
 
