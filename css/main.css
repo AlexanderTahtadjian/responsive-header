@@ -22,16 +22,16 @@ body {
 }
 
 header {
-  font-family: Ubuntu,sans-serif;
-  font-weight: normal;
-  color: #fff;
-  font-size: 2rem;
   background-color: #18294f;
 }
 
 h1 {
   text-align: center;
   margin: 0;
+  font-family: Ubuntu,sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2rem;
 }
 
 nav ul {
