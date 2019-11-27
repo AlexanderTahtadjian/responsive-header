@@ -76,11 +76,6 @@ a:hover {
     line-height: 1.3;
   }
 
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   nav ul {
     padding: .5em .75em;
   }
