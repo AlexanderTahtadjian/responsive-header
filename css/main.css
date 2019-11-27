@@ -82,6 +82,7 @@ nav a:hover {
 
   nav ul {
     padding: .5em .75em;
+    text-align: center;
   }
 
   nav li {
@@ -103,11 +104,16 @@ nav a:hover {
   }
 
   nav ul {
+    width: 100%;
+    padding: .5em .75em;
+
+
+  }
+
+  nav li {
     display: inline-block;
     width: 25%;
-    padding: .5em .75em;
-    justify-content: space-between;
-    align-items: stretch;
+    text-align: center;
   }
 
   nav a {
@@ -121,6 +127,13 @@ nav a:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .75rem;
   }
 
   h1,
