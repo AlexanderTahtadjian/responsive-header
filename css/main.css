@@ -91,6 +91,10 @@ a:hover {
     line-height: 1.4;
   }
 
+  nav a {
+    display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
