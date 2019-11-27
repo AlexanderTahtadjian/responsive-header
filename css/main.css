@@ -33,13 +33,16 @@ h1 {
   color: #fff;
   font-size: 2rem;
 }
+nav {
+  text-align: left;
+}
 
 nav ul {
   list-style-type: none;
   font-weight: normal;
-  text-align: center;
   color: #fff;
   font-size: 1.125rem;
+  padding: 5px;
 }
 
 nav li {
