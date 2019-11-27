@@ -33,6 +33,7 @@ header h1 {
   font-weight: bold;
   color: #fff;
   font-size: 2rem;
+  padding-bottom: 5px;
 }
 
 nav {
@@ -46,8 +47,9 @@ nav ul {
   list-style-type: none;
   font-weight: normal;
   color: #fff;
+  margin: 0;
   font-size: 1.125rem;
-  padding: 5px;
+  padding: 0;
 }
 
 nav li {
@@ -61,7 +63,7 @@ nav a {
   text-decoration: none;
   text-align: left;
   font-size: 1.125rem;
-  display: inline-block;
+  display: block;
   padding: .5em .75em;
   white-space: nowrap;
   background-color: #18294f;
@@ -81,7 +83,6 @@ nav a:hover {
   }
 
   nav ul {
-    padding: .5em .75em;
     text-align: center;
   }
 
